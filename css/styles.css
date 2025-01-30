@@ -1,0 +1,390 @@
+body{
+    color: #434455;
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+}
+.visually-hidden {
+    display: none;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+header.header{
+    border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+header div.div-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+header div nav.navigation{
+    display: flex;
+    align-items: center;
+}
+header nav a.logo-main{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px;
+
+}
+header nav a span.logo-span{
+    color: #2e2f42;
+}
+header .nav-list{
+    display: flex;
+    gap: 40px;
+}
+header nav ul li a.nav-links{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding: 24px 0;
+    position: relative;
+    color: #404bbf;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+header nav ul li a.nav-links:hover,
+a.nav-links:focus{
+    color: #404BBF;
+}
+header nav ul li a.nav-links::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
+header address.adresler{
+    font-style: normal;
+}
+header address ul li a.info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+header address ul li a.info:hover,
+a.info:focus{
+    color: #404BBF;
+}
+
+main .section-one{
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+    padding: 188px 0;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+main .section-one h1.title-one{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    max-width: 496px;
+    margin: 0 auto;
+}
+main .section-one button.order-button{
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+main .section-one button.order-button:hover,
+main .section-one button.order-button:focus{
+    background-color: #404BBF;
+}
+main .section-two{
+    padding: 120px 0;
+}
+main .section-two ul.job-list{
+    display: flex;
+    gap: 24px;
+}
+main .section-two ul li.job-list-li{
+    width: calc((100% - 72px) / 4);
+
+}
+main .section-two ul li div.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+main .section-two ul li div svg.icon{
+    display: block;
+    margin: 0 auto;
+    align-items: center;
+    align-content: center;
+}
+main .section-two ul li h3.job-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+main .section-two ul li p.job-def{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.section-three{
+    background-color: #f4f4fd;
+    padding: 120px 0;
+}
+.section-three .our-team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+.section-three div ul.section-three-ul{
+    display: flex;
+    gap: 24px;
+}
+.section-three ul li.teammates{
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+
+}
+.section-three ul li div.div-teammates{
+    padding: 32px 0;
+}
+.section-three ul li div ul.social-media{
+    width: 232px;
+    height: 40px;
+    gap: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+
+}
+.section-three ul li div ul li a.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.section-three ul li div ul li a.social-icons:hover{
+    background-color: #404bbf;
+}
+.section-three ul li div ul li a.social-icons:focus{
+    background-color: #404bbf;
+}
+.social-vector{
+    margin: 0 auto;
+    text-align: center;
+    fill: #f4f4fd;
+}
+.section-three ul li h3.isimler{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.section-three ul li p.job{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+    
+}
+.section-four{
+    padding: 120px 0;
+}
+.our-portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+    text-align: center;
+}
+.secfour-list{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.secfour-items{
+    width: calc((100% - 72px) / 3);
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.secfour-items:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.secfour-items:hover .secfour-paragraf{
+    transform: translateY(0%);
+}
+.secthree-img{
+    position: relative;
+    overflow: hidden;
+}
+.secfour-img{
+    position: relative;
+    overflow: hidden;
+}
+.secfour-paragraf{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.div-jobname{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+.jobs-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+.category{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+.div-footer{
+    margin-right: 120px;
+}
+.footer-div{
+    display: flex;
+    align-items: baseline;
+}
+.social-pragraf{
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.footer-list{
+    display: flex;
+    gap: 16px;
+}
+.footer-items{
+    width: 40px;
+    height: 40px;
+}
+.footer-link{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link:hover{
+    background-color: #31d0aa;
+}
+.footer-link:focus{
+    background-color: #31d0aa;
+}
+.logo-main{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.logo-span{
+    color: #F4F4FD;
+}
+
+.footer-pragraf{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}

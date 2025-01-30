@@ -445,7 +445,7 @@ main .section-two ul li p.job-def{
 .svg-send{
     margin-left: 16px;
 }
-.modal {
+.modal-window {
     position: fixed;
     top: 0;
     left: 0;

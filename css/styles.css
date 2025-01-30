@@ -327,12 +327,17 @@ main .section-two ul li p.job-def{
     background-color: #2e2f42;
     padding: 100px 0;
 }
-.div-footer{
+.div-footerlogo{
     margin-right: 120px;
+    border: 1px solid red;
 }
-.footer-div{
+.div-footer{
     display: flex;
     align-items: baseline;
+    border: 1px solid red;
+}
+.footer-social{
+    border: 1px solid red;
 }
 .social-pragraf{
     font-weight: 500;
@@ -388,6 +393,9 @@ main .section-two ul li p.job-def{
     letter-spacing: 0.02em;
     max-width: 264px;
 }
+.open-form{
+    border: 1px solid red;
+}
 .open-form p{
     margin-bottom: 16px;
     font-weight: 500;
@@ -395,7 +403,6 @@ main .section-two ul li p.job-def{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-
 }
 .iletisim-form{
     display: flex;
